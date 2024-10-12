@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./view.css";
 import { Link, useParams } from "react-router-dom";
-import { getSingleUser } from "../add-edit/AddEdit";
 import axios from "axios";
 
 const View = () => {

@@ -19,8 +19,10 @@ const AddEdit = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if(id){
-        getSingleUser(id);
+    if (id) {
+      getSingleUser(id);
+    } else {
+      setData(initialState);
     }
   }, [id]);
 
